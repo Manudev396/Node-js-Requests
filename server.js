@@ -23,6 +23,8 @@ app.use(morgan('dev'))
 app.use(require('./detail/add_user'))
 app.use(require('./detail/display'))
 app.use(require('./detail/find_id'))
+app.use(require('./detail/update'))
+
 
 
 //server  connection
